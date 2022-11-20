@@ -15,7 +15,3 @@ LINUX FILE SYSTEM HIERARCHY
   opt/  - contains all third party application installation files.
   bin/  - contains all the basic command files. (Regular User)
   sbin/ - contains all the administration command files. (Root User)
-  
-  
-  
-  
