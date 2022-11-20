@@ -1,0 +1,21 @@
+LINUX FILE SYSTEM HIERARCHY
+
+/
+  boot/ - contains all system bootable files.
+  etc/  - contains all system configuration files.
+  proc/ - contains all PID process, systeminfo files.
+  dev/  - contains all devices related files i.e. hdd, character special devices, terminals etc.
+  home/ - contains all user's directories and files.
+  root/ - contains root user directories and files.
+  var/  - contains all the variable data files. (Capacity planning must be done properly for the var file system partition).
+  usr/  - UNIX system resources, eg. applications availabe for end user, i.e. firefox.
+  run/  - contains all the runtime applications.
+  tmp/  - contains all temporary files. (every restart thi sfolder wll be flushed).
+  mnt/  - contains mount point for remote file systems, i.e. nfs file serve, samba file server.
+  opt/  - contains all third party application installation files.
+  bin/  - contains all the basic command files. (Regular User)
+  sbin/ - contains all the administration command files. (Root User)
+  
+  
+  
+  
