@@ -1,6 +1,6 @@
 LINUX FILE SYSTEM HIERARCHY
 
-/
+  /     - root directory
   boot/ - contains all system bootable files.
   etc/  - contains all system configuration files.
   proc/ - contains all PID process, systeminfo files.
