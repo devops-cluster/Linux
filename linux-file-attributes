@@ -1,0 +1,16 @@
+10 bits file permission/ attributes
+
+- --- --- ---
+
+First bit is to indentify the file type.
+  - = regular file
+  d = directory file
+  l = symbolic link file
+  b = block special devices (HDD's)
+  c = character special devices (tty)
+  p = piped files
+  s = socket files
+  
+Next 3 bits is to identify the owner file permission/ownership.
+
+Next 3 bits is to indentify the group owner permission/ownership.
